@@ -12,7 +12,7 @@ Scikit-learn is used only for data loading to conveniently access the built-in I
   -   Petal length
   -   Petal width
   
-- **Hidden layers:** Two layers, each consisting of 16 neurons:
+- **Hidden layers:** Two layers, each consisting of 16 neurons (default, can be modified):
   - Each hidden neuron takes a weighted sum of inputs from the previous layer and passes it through a sigmoid activation function.
   - The hidden layers allow the network to learn complex nonlinear relationships between input features and species classification.
 

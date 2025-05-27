@@ -45,6 +45,7 @@ When presented with measurements of an Iris flower:
    - The final layer computes another weighted combination from the penultimate hidden layer’s outputs.
    - The result is passed through a softmax function, producing multivariate probabilities for each flower species.
    - The species with the highest probability is chosen as the predicted species.
+   - This is then compared to the ground truth, and SGD is used to adjust the weights via back-propagation
 
 5. **Learning:**
    - Initially, the network guesses randomly, as weights are set to small, random values (Kaiming initialization, might change to Xavier/Glorot later).

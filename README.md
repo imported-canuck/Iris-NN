@@ -1,4 +1,5 @@
 # Iris Neural Network Classifier (from Scratch)
+## NB: This branch uses the same model architecture on the digits dataset (8x8 pixel photos of digits from 0-9).
 This repository contains a manually implemented feed-forward neural network classifier built entirely from scratch using Python. The neural network classifies flowers from the Iris dataset into their correct species, based on their given sepal and petal dimensions.  
 
 No high-level libraries (e.g., TensorFlow, Keras, or Scikit-learn) are used to build or train the neural network. Instead, all functionality, from initial parameter setup, forward propagation, backward propagation, gradient computation, and stochastic gradient descent (SGD), is explicitly coded using fundamental mathematical concepts and NumPy for numerical computations, down to the individual matrix multiplications.  
